@@ -14,7 +14,7 @@ from deepgram import (
     FileSource,
 )
 
-DEEPGRAM_API_KEY = "ff0071baa966e55e33039f9377ab2915d4569047"
+DEEPGRAM_API_KEY = "YOUR_API_KEY"
 deepgram = DeepgramClient(DEEPGRAM_API_KEY)
 
 DEVICE_NAME = "Compass"
