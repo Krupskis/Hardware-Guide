@@ -42,7 +42,7 @@ def ulaw2linear(ulaw_byte):
     return sample
 
 # Use 2 buffers, so the start of one buffer is not
-# overwritten while creating a wav file.
+# overwritten while processing it.
 bytes_buffer1 = []
 bytes_buffer2 = []
 active_buffer_idx = 0
@@ -111,9 +111,7 @@ def transcribe():
         for paragraph in paragraphs:
             sentences = paragraph['sentences']
             for sentence in sentences:
-            #    logging.info(sentence['text'])
                 transcription_with_new_lines += sentence['text'] + "\n"
-        # transcription = response['results']['channels'][0]['alternatives'][0]['transcript']
     else:
         transcription_with_new_lines = None
         
@@ -129,9 +127,7 @@ async def main():
 
     for device in devices:
         if device.name and DEVICE_NAME in device.name:
-            print(f"Found device {device.name}")
             compass = device
-            print(device)
 
     if compass is None:
         print("Could not find the compass device. Try restarting the wearable.")
