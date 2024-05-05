@@ -2,6 +2,10 @@
 
 a tiny always on wearable for your conversations
 
+1. [Example client to transcribe Compass streamed audio](https://github.com/Krupskis/Hardware-Guide/tree/main/guide)
+
+Below you can find instructions on how to update your wearable. One caveat, it currently overrides the device name to `Compass`.
+
 ## Update using just a few lines!
 
 For now this most likely works only with a Mac, will include instructions for
