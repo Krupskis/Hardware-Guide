@@ -1,4 +1,6 @@
-# xiao-firmware-binary
+# 🧭 Hardware Guide
+
+a tiny always on wearable for your conversations
 
 ## UF2 instructions (Needs access to reset pin)
 1. double click reset pin
