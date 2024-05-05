@@ -4,6 +4,9 @@ a tiny always on wearable for your conversations
 
 ## Update using just a few lines!
 
+For now this most likely works only with a Mac, will include instructions for
+Windows and Linux upcoming days.
+
 1. Clone the repository
 
 ```
