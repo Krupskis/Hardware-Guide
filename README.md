@@ -17,7 +17,7 @@ Windows and Linux upcoming days.
 git clone https://github.com/Krupskis/Hardware-Guide.git
 ```
 
-2. Connect device to your Mac
+2. Connect device to your Mac using a USB-C cable
 
 3. Open terminal and get port of the connected device
 
