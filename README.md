@@ -8,8 +8,7 @@ Below you can find instructions on how to update your wearable. One caveat, it c
 
 ## Update using just a few lines!
 
-For now this most likely works only with a Mac, will include instructions for
-Windows and Linux upcoming days.
+You will need a Macbook (Intel or M-series) and python3
 
 1. Clone the repository
 
