@@ -122,7 +122,13 @@ def transcribe():
     os.remove(filename)
 
 async def main():
-    devices = await BleakScanner.discover()
+    scanner = BleakScanner(service_uuids=[SERVICE_UUID])
+    await scanner.start()
+    # Wait for 5 seconds to find the device
+    await asyncio.sleep(5)
+    await scanner.stop()
+    devices = await scanner.get_discovered_devices()
+    print(devices)
     compass = None
 
     for device in devices:
