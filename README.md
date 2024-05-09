@@ -29,7 +29,13 @@ ls /dev/tty.*
 
 The device port will show up as `/dev/tty.usbmodem...`
 
-4. Flash the device
+4. Install `pyserial`
+
+```
+pip install pyserial
+```
+
+5. Flash the device
 
 ```
 cd mac_updates
