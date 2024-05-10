@@ -8,8 +8,6 @@ Below you can find instructions on how to update your wearable. One caveat, it c
 
 ## Update using just a few lines!
 
-You will need a Macbook (Intel or M-series) and python3
-
 1. Clone the repository
 
 ```
@@ -36,10 +34,23 @@ pip install pyserial
 
 5. Flash the device
 
+Mac:
+
 ```
 cd mac_updates
 python flash.py <port>
 ```
+
+Windows
+
+```
+cd windows_updates
+python flash.py <port>
+```
+
+Linux:
+We currently don't have an `adafruit-nrfutil` binary for Linux.
+You will have to manually install [adafruit-nrfutil](https://github.com/adafruit/Adafruit_nRF52_nrfutil).
 
 as per the above example:
 
