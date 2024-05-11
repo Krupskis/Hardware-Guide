@@ -34,7 +34,7 @@ pip install pyserial
 
 5. Flash the device
 
-Mac:
+Mac
 
 ```
 cd mac_updates
@@ -48,7 +48,8 @@ cd windows_updates
 python flash.py <port>
 ```
 
-Linux:
+Linux
+
 We currently don't have an `adafruit-nrfutil` binary for Linux.
 You will have to manually install [adafruit-nrfutil](https://github.com/adafruit/Adafruit_nRF52_nrfutil).
 
